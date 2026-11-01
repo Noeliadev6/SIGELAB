@@ -1,0 +1,33 @@
+# Laravel
+/vendor/
+/.env
+/.env.*
+!/.env.example
+!/.env.offline.example
+.phpunit.cache
+/.phpunit.cache
+/auth.json
+
+# Runtime y dependencias locales
+/runtime/
+
+# Logs y archivos temporales
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/framework/testing/*
+/storage/inertia-devtools/
+
+# Bases de datos locales
+/database/*.sqlite
+/database/*.sqlite-*
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
